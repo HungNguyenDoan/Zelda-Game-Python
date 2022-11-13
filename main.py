@@ -1,7 +1,7 @@
 import pygame, sys
 from settings import *
 class Game:
-    def init_(self) :
+    def __init_(self) :
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH,HEIGHT))
         self.clock = pygame.time.Clock()
