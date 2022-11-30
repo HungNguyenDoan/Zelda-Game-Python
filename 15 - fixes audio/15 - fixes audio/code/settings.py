@@ -16,6 +16,8 @@ ENERGY_BAR_WIDTH = 140
 ITEM_BOX_SIZE = 80
 UI_FONT = '../graphics/font/joystix.ttf'
 UI_FONT_SIZE = 18
+WHITE = (255,255,255)
+GAMEOVER_BACKGROUND = '../graphics/test/gameoverbackground.jpg'
 
 # general colors
 WATER_COLOR = '#71ddee'
