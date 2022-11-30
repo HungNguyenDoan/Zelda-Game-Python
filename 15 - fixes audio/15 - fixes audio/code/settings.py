@@ -1,3 +1,4 @@
+import pygame
 # game setup
 WIDTH    = 1280	
 HEIGTH   = 720
@@ -18,6 +19,7 @@ UI_FONT = '../graphics/font/joystix.ttf'
 UI_FONT_SIZE = 18
 WHITE = (255,255,255)
 GAMEOVER_BACKGROUND = '../graphics/test/gameoverbackground.jpg'
+
 
 # general colors
 WATER_COLOR = '#71ddee'

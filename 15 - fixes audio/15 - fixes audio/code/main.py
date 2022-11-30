@@ -44,6 +44,7 @@ class Game:
 			self.clock.tick(FPS)
 	def gameOver(self):
 		background = pygame.image.load(GAMEOVER_BACKGROUND)
+		background = pygame.transform.scale(background,(1280,720))
 		self.screen.blit(background, (0, 0))
 		pygame.font.init()
 		font = pygame.font.SysFont(UI_FONT,30)
